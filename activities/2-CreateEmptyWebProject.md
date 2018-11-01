@@ -1,5 +1,7 @@
 # Creating an Empty Web Project
 
+For this activity, please ensure you have completed [Activity 1](1-InstallTooling.md) to install the required tooling.
+
 1. Open a command prompt from the AspNetCoreDockerWorkshop directory.
 2. Create a 'src' folder. This is a common convention.
 
