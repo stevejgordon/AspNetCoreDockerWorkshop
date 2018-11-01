@@ -17,3 +17,5 @@ You'll then create a Docker image for your API and run it as a Docker container.
 | [Activity #1](/activities/1-InstallTooling.md) | Install the .NET Core SDK and Docker Tooling |
 | [Activity #2](/activities/2-CreateEmptyWebProject.md) | Create an empty web project via the command line |
 | [Activity #3](/activities/3-CreateControllerAndAction.md) | Create a controller and action |
+| [Activity #4](/activities/4-ReturningJsonData.md) | Returning JSON Data |
+| [Activity #5](/activities/5-BindingFromQueryString.md) | Binding Data from the QueryString |
