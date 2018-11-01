@@ -13,23 +13,21 @@ public string WelcomeMessage { get; set; } = "Hello";
 4. Update the Hello method in the SampleController to instantiate an instance of the HelloOutputModel before the return statement.
 
 ``` csharp
-[Route("")]
-public IActionResult Hello()
-{
-    var model = new HelloOutputModel();
-    return "Hello";
-}
+var model = new HelloOutputModel();
+return "Hello";
 ```
 
 5. Update the return statement to return the object.
 
 ``` csharp
-[Route("")]
-public IActionResult Hello()
-{
-    var model = new HelloOutputModel();
-    return Ok(model);
-}
+var model = new HelloOutputModel();
+return Ok(model);
+```
+
+6. Update the method signature to return `ActionResult<HelloOutputModel>`
+
+``` csharp
+public ActionResult<HelloOutputModel> Hello()
 ```
 
 6. Run the application by pressing F5.

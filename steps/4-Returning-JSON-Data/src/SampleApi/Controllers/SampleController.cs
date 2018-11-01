@@ -7,12 +7,9 @@ namespace SampleApi.Controllers
     public class SampleController : Controller
     {
         [Route("")]
-        public IActionResult Hello(string name)
+        public ActionResult<HelloOutputModel> Hello()
         {
             var model = new HelloOutputModel();
-
-            model.WelcomeMessage = $"{model.WelcomeMessage} {name ?? "whoever you are!"}";
-
             return Ok(model);
         }
     }

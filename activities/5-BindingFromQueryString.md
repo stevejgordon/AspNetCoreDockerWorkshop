@@ -1,11 +1,11 @@
 # Binding Data from the QueryString
 
-For this activity, please ensure you have completed [Activity 4](4-ReturningJsonData.md) and have your solution open in Visual Studio 2017.
+For this activity, please ensure you have completed [Activity 4](5-BindingFromQueryString.md) and have your solution open in Visual Studio 2017.
 
 1. Update the method signature of the Hello method to accept a string parameter called 'name'.
 
 ``` csharp
-public IActionResult Hello(string name)
+public ActionResult<HelloOutputModel> Hello(string name)
 ```
 
 2. After the line which creates the HelloOutputModel, add the following code to update the WelcomeMessage...
