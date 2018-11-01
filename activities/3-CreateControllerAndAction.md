@@ -21,7 +21,7 @@ public class SampleController : Controller
 
 ``` csharp
 [Route("")]
-public ActionResult<string> Hello()
+public IActionResult Hello()
 {
     return "Hello";
 }

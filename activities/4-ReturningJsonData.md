@@ -14,7 +14,7 @@ public string WelcomeMessage { get; set; } = "Hello";
 
 ``` csharp
 [Route("")]
-public ActionResult<string> Hello()
+public IActionResult Hello()
 {
     var model = new HelloOutputModel();
     return "Hello";
@@ -25,7 +25,7 @@ public ActionResult<string> Hello()
 
 ``` csharp
 [Route("")]
-public ActionResult<string> Hello()
+public IActionResult Hello()
 {
     var model = new HelloOutputModel();
     return Ok(model);

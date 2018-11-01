@@ -5,7 +5,7 @@ For this activity, please ensure you have completed [Activity 4](4-ReturningJson
 1. Update the method signature of the Hello method to accept a string parameter called 'name'.
 
 ``` csharp
-public ActionResult<string> Hello(string name)
+public IActionResult Hello(string name)
 ```
 
 2. After the line which creates the HelloOutputModel, add the following code to update the WelcomeMessage...

@@ -6,7 +6,7 @@ namespace SampleApi.Controllers
     public class SampleController : Controller
     {
         [Route("")]
-        public ActionResult<string> Hello()
+        public IActionResult Hello()
         {
             return "Hello";
         }
