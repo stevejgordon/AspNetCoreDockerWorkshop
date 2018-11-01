@@ -31,6 +31,6 @@ public ActionResult<string> Hello()
 
 ## End of Activity
 
-The completed example for this activity can be found in the /steps/2-Create-Controller-And-Action folder.
+The completed example for this activity can be found in the '/steps/3-Create-Controller-And-Action' folder.
 
 [Return to README and activity links](../README.md)

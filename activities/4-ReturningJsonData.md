@@ -36,6 +36,6 @@ public ActionResult<string> Hello()
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/3-Returning-JSON-Data' folder.
+The completed example for this activity can be found in the '/steps/4-Returning-JSON-Data' folder.
 
 [Return to README and activity links](../README.md)

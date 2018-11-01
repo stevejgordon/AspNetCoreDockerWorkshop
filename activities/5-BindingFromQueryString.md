@@ -25,6 +25,6 @@ model.WelcomeMessage = $"{model.WelcomeMessage} {name ?? "whoever you are!"}";
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/4-Binding-Data-From-Query-String' folder.
+The completed example for this activity can be found in the '/steps/5-Binding-Data-From-Query-String' folder.
 
 [Return to README and activity links](../README.md)

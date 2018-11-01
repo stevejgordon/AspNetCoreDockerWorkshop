@@ -43,6 +43,6 @@ For this activity, please ensure you have completed [Activity 1](1-InstallToolin
 
 By this point you should be able to double click the solution file to open the SampleApi project in Visual Studio 2017.
 
-The completed example for this activity can be found in the /steps/1-Create-Solution-And-Project folder.
+The completed example for this activity can be found in the '/steps/2-Create-Solution-And-Project' folder.
 
 [Return to README and activity links](../README.md)
