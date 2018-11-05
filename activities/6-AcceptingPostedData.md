@@ -1,6 +1,6 @@
 # Accepting Posted Data
 
-For this activity, please ensure you have completed [Activity 5](4-ReturningJsonData.md) and have your solution open in Visual Studio 2017.
+For this activity, please ensure you have completed [Activity 5](5-BindingFromQueryString) and have your solution open in Visual Studio 2017.
 
 1. Create a new class called 'CalculateOutputModel' in the 'OutputModels' folder.
 

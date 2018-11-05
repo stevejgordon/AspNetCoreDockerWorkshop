@@ -1,12 +1,13 @@
 # ASP.NET Core and Docker Workshop
 
-## Setup
+## Pre-requisite Setup
 
-1. Clone Locally
+1. Clone this repository locally
+1. Install Postman for Windows - [Download Postman](https://www.getpostman.com/apps)
 
 ## What You'll Be Building
 
-In this workshop you will build a simple ASP.NET Core API from scratch. The API will have two endpoints, one returning data via HTTP GET and the other accepting data via HTTP POST.
+In this workshop you will build a simple ASP.NET Core API from scratch, initially using the .NET SDK CLI. The finished API will have two endpoints, one returning data via HTTP GET and the other accepting data via HTTP POST. It will make use of ASP.NET Core configuration.
 
 You'll then create a Docker image for your API and run it as a Docker container.
 
@@ -20,3 +21,4 @@ You'll then create a Docker image for your API and run it as a Docker container.
 | [Activity #4](/activities/4-ReturningJsonData.md) | Returning JSON Data |
 | [Activity #5](/activities/5-BindingFromQueryString.md) | Binding data from the query string |
 | [Activity #6](/activities/6-AcceptingPostedData.md) | Accepting posted data |
+| [Activity #7](/activities/7-Configuration.md) | Application configuration |
