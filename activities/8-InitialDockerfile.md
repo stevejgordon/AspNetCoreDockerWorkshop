@@ -55,6 +55,12 @@ docker container ps
 docker stop <XYZ>
 ```
 
+14. View the size of the image we created using the 'docker images' command.
+
+```
+docker images aspnetcore-workshop
+```
+
 ## End of Activity
 
 The completed example for this activity can be found in the '/steps/8-InitialDockerfile' folder.
