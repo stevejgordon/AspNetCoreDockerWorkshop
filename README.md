@@ -23,4 +23,4 @@ You'll then create a Docker image for your API and run it as a Docker container.
 | [Activity #6](/activities/6-AcceptingPostedData.md) | Accepting posted data |
 | [Activity #7](/activities/7-Configuration.md) | Application configuration |
 | [Activity #8](/activities/8-InitialDockerfile.md) | Initial Dockerfile |
-| [Activity #9](/activities/9-ProductionDockerfile) | Production Dockerfile |
+| [Activity #9](/activities/9-ProductionDockerfile.md) | Production Dockerfile |
