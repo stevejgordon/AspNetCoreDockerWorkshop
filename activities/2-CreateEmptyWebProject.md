@@ -5,35 +5,35 @@ For this activity, please ensure you have completed [Activity 1](1-InstallToolin
 1. Open a command prompt from the AspNetCoreDockerWorkshop directory.
 2. Create a 'src' folder. This is a common convention.
 
-> md src
+```md src```
 
 3. Change to the 'src' folder.
 
-> cd src
+```cd src```
 
 4. Use the dotnet CLI to create an empty web project called SampleApi.
 
-> dotnet new web --name SampleApi --no-https
+```dotnet new web --name SampleApi --no-https```
 
 5. Change boot to the root directory.
 
-> cd ..
+```cd ..```
 
 6. Use the dotnet CLI to create a new empty solution
 
-> dotnet new sln
+```dotnet new sln```
 
 7. Add the SampleApi project to the solution.
 
-> dotnet sln add .\src\SampleApi\SampleApi.csproj
+```dotnet sln add .\src\SampleApi\SampleApi.csproj```
 
 8. Use the dotnet CLI to build the solution.
 
-> dotnet build
+```dotnet build```
 
 9. Use the dotnet CLI to run the application
 
-> dotnet run --project src/SampleApi/SampleApi.csproj
+```dotnet run --project src/SampleApi/SampleApi.csproj```
 
 *NOTE: By default the application will be hosted on port 5000. If this conflicts with anything you can override the port using the switch  --urls "http://localhost:PORT"*
 
