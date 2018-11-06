@@ -1,12 +1,14 @@
 # Install .NET SDK
 
-1. Verify the .NET SDK version installed on your PC. Open a command prompt and run the following command
+1. Verify the .NET SDK version installed on your PC. Open a command prompt and run the following command...
 
 ```dotnet --version```
 
-2. The version should be 2.1.403 or higher
-3. If you require a newer version you can download and install it from [.NET SDK for Visual Studio](https://www.microsoft.com/net/download/visual-studio-sdks)
-4. You can view additional information with the following command
+The version should be 2.1.403 or higher. 
+
+2. If you require a newer version, you can download and install it from [.NET SDK for Visual Studio](https://www.microsoft.com/net/download/visual-studio-sdks)
+
+3. You can view additional information with the following command...
 
 ```dotnet --info```
 
