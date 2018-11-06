@@ -1,7 +1,7 @@
 
 # Production Dockerfile
 
-For this activity, please ensure you have completed [Activity 8](8-InitialDockerfile.md) and have your solution open in Visual Studio 2017.
+For this activity, please ensure you have completed [Activity 9](9-InitialDockerfile.md) and have your solution open in Visual Studio 2017.
 
 1. Edit the 'dockerfile' in VS Code or Notepad (or your text editor of choice) and add the following...
 
@@ -75,6 +75,6 @@ docker images aspnetcore-workshop
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/9-ProductionDockerfile' folder.
+The completed example for this activity can be found in the '/steps/10-ProductionDockerfile' folder.
 
 [Return to README and activity links](../README.md)

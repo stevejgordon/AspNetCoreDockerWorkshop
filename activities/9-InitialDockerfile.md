@@ -1,7 +1,7 @@
 
 # Initial Dockerfile
 
-For this activity, please ensure you have completed [Activity 7](7-Configuration.md) and have your solution open in Visual Studio 2017.
+For this activity, please ensure you have completed [Activity 8](8-Logging.md) and have your solution open in Visual Studio 2017.
 
 1. Copy the '.dockerignore' file from the 'resources' folder of this workshop repository and paste it into the root of your solution. *The same folder where your .sln file exists*
 2. Create a new text document in the same file called 'dockerfile'. **It is important that you do not include an extension for this file**
@@ -63,6 +63,6 @@ docker images aspnetcore-workshop
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/8-InitialDockerfile' folder.
+The completed example for this activity can be found in the '/steps/9-InitialDockerfile' folder.
 
 [Return to README and activity links](../README.md)
