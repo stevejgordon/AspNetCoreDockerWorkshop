@@ -4,7 +4,7 @@
 
 ```dotnet --version```
 
-The version should be 2.1.403 or higher. 
+The version should be **2.1.403** or higher.
 
 2. If you require a newer version, you can download and install it from [.NET SDK for Visual Studio](https://www.microsoft.com/net/download/visual-studio-sdks)
 
