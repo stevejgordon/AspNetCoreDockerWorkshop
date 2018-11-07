@@ -1,10 +1,10 @@
 
 # Initial Dockerfile
 
-For this activity, please ensure you have completed [Activity 8](8-Logging.md) and have your solution open in Visual Studio 2017.
+For this activity, please ensure you have completed [Activity 8](8-Logging.md).
 
 1. Copy the '.dockerignore' file from the 'resources' folder of this workshop repository and paste it into the root of your solution. *The same folder where your .sln file exists*
-2. Create a new text document in the same file called 'dockerfile'. **It is important that you do not include an extension for this file**
+2. Create a new text document in the your root directory called 'dockerfile'. **It is important that you do not include an extension for this file**
 3. Edit the 'dockerfile' in VS Code or Notepad (or your text editor of choice) and add the following...
 
 ```
@@ -39,7 +39,7 @@ docker run -p 7001:80 aspnetcore-workshop
 *NOTE: If the above fails because the port 7001 is use on your PC, try another port number.*
 
 8. At this point, you should see some output from the ASP.NET Core logging after the application starts.
-9. Open a browser window and navigate to to [http://localhost:7001](http://localhost:7001/).
+9. Open a browser window and navigate to [http://localhost:7001](http://localhost:7001/).
 10. In the command prompt, press CTRL + C to detach from the container.
 11. View the running containers with the 'docker container ps' command.
 

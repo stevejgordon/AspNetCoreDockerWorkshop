@@ -1,7 +1,7 @@
 
 # Production Dockerfile
 
-For this activity, please ensure you have completed [Activity 9](9-InitialDockerfile.md) and have your solution open in Visual Studio 2017.
+For this activity, please ensure you have completed [Activity 9](9-InitialDockerfile.md).
 
 1. Edit the 'dockerfile' in VS Code or Notepad (or your text editor of choice) and add the following...
 
@@ -51,7 +51,7 @@ docker run -p 7001:80 aspnetcore-workshop-prod
 *NOTE: If the above fails because the port 7001 is use on your PC, try another port number.*
 
 8. At this point, you should see some output from the ASP.NET Core logging after the application starts.
-9. Open a browser window and navigate to to [http://localhost:7001](http://localhost:7001/).
+9. Open a browser window and navigate to [http://localhost:7001](http://localhost:7001/).
 10. In the command prompt, press CTRL + C to detach from the container.
 11. View the running containers with the 'docker container ps' command.
 
