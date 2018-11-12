@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  api-service:
+    build:
+      context: .
+    ports:
+     - "10001:80"
+    environment:
+      - "Messages__WelcomeMessage=Hello from Docker"
+    container_name: sample-api-service

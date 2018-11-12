@@ -65,6 +65,6 @@ docker images aspnetcore-workshop
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/9-InitialDockerfile' folder.
+The completed example for this activity can be found in the '/steps/9-Initial-Dockerfile' folder.
 
 [Return to README and activity links](../README.md)

@@ -19,17 +19,17 @@ We could use the Visual Studio UI and tooling for this also, but let's see how e
 
 ```cd SampleApi```
 
-4. Create a 'src' folder. *NOTE: Using src is a common pattern.*
+4. Pin the SDK version for these activies to 2.1.403 
+
+```dotnet new globaljson --sdk-version 2.1.403```
+
+5. Create a 'src' folder. *NOTE: Using src is a common pattern.*
 
 ```md src```
 
-5. Change to the 'src' folder.
+6. Change to the 'src' folder.
 
 ```cd src```
-
-6. Pin the SDK version for these activies to 2.1.403 
-
-```dotnet new globaljson --sdk-version 2.1.403```
 
 7. Use the dotnet CLI to create an empty web project called SampleApi.
 

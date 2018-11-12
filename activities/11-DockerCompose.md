@@ -51,6 +51,6 @@ docker-compose stop
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/11-DockerCompose' folder.
+The completed example for this activity can be found in the '/steps/11-Docker-Compose' folder.
 
 [Return to README and activity links](../README.md)
