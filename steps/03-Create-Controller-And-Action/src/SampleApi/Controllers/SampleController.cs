@@ -3,7 +3,7 @@
 namespace SampleApi.Controllers
 {
     [ApiController]
-    public class SampleController : Controller
+    public class SampleController : ControllerBase
     {
         [Route("")]
         public string Hello()

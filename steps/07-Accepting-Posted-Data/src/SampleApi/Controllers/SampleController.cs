@@ -5,7 +5,7 @@ using SampleApi.OutputModels;
 namespace SampleApi.Controllers
 {
     [ApiController]
-    public class SampleController : Controller
+    public class SampleController : ControllerBase
     {
         [Route("{name?}")]
         public ActionResult<HelloOutputModel> Hello(string name)

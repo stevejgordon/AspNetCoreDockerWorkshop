@@ -11,10 +11,10 @@ We're going to create our first ASP.NET Core MVC controller and an action to han
 1. Open your SampleApi.sln in Visual Studio 2017.
 1. Create a new folder call 'Controllers' under the SampleApi project.
 1. Create a class called 'SampleController' in the Controllers folder.
-1. Update the class to inherit from the Controller abstract class.
+1. Update the class to inherit from the ControllerBase abstract class.
 
 ``` csharp
-public class SampleController : Controller
+public class SampleController : ControllerBase
 ```
 
 *NOTE: This will require the a using statement for 'Microsoft.AspNetCore.Mvc'.*
@@ -23,7 +23,7 @@ public class SampleController : Controller
 
 ``` csharp
 [ApiController]
-public class SampleController : Controller
+public class SampleController : ControllerBase
 ```
 
 6. Create a method as follows...

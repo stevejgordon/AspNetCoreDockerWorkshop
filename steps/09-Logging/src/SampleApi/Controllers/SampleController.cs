@@ -9,7 +9,7 @@ using SampleApi.OutputModels;
 namespace SampleApi.Controllers
 {
     [ApiController]
-    public class SampleController : Controller
+    public class SampleController : ControllerBase
     {
         private readonly IOptions<MessagesConfiguration> _messagesConfig;
         private readonly ILogger<SampleController> _logger;
