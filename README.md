@@ -20,7 +20,11 @@ You'll then create a Docker image for your API and run it as a Docker container.
 | [Activity #3](/activities/3-CreateControllerAndAction.md) | Create a controller and action |
 | [Activity #4](/activities/4-ReturningJsonData.md) | Returning JSON Data |
 | [Activity #5](/activities/5-BindingFromQueryString.md) | Binding data from the query string |
-| [Activity #6](/activities/6-AcceptingPostedData.md) | Accepting posted data |
-| [Activity #7](/activities/7-Configuration.md) | Application configuration |
-| [Activity #8](/activities/8-InitialDockerfile.md) | Initial Dockerfile |
-| [Activity #9](/activities/9-ProductionDockerfile.md) | Production Dockerfile |
+| [Activity #6](/activities/6-BindingFromRouteParameters) | Binding data from route parameters |
+| [Activity #7](/activities/7-AcceptingPostedData.md) | Accepting posted data |
+| [Activity #8](/activities/8-Configuration.md) | Application configuration |
+| [Activity #9](/activities/9-Logging.md) | Working with logging |
+| [Activity #10](/activities/10-InitialDockerfile.md) | Initial Dockerfile |
+| [Activity #11](/activities/11-ProductionDockerfile.md) | Production Dockerfile |
+| [Activity #12](/activities/12-DockerCompose.md) | Working with Docker Compose |
+| [Activity #13](/activities/13-UnitTests.md) | Adding some unit tests |
