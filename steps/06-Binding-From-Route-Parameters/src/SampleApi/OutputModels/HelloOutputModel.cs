@@ -1,4 +1,5 @@
-﻿namespace SampleApi.OutputModels
+﻿
+namespace SampleApi.OutputModels
 {
     public class HelloOutputModel
     {

@@ -8,7 +8,7 @@ We're going to explore binding data from the query string.
 
 ## Activity Steps
 
-1. Update the method signature of the Hello method to accept a string parameter called 'name'.
+1. Update the method signature of the Hello method to accept a string argument called 'name'.
 
 ``` csharp
 public ActionResult<HelloOutputModel> Hello(string name)
@@ -35,9 +35,7 @@ By the end of this activity your completed action method should now look like th
 public ActionResult<HelloOutputModel> Hello(string name)
 {
     var model = new HelloOutputModel();
-
     model.WelcomeMessage = $"{model.WelcomeMessage} {name ?? "whoever you are!"}";
-
     return Ok(model);
 }
 ```

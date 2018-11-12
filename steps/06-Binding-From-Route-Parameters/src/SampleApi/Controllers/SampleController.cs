@@ -10,9 +10,7 @@ namespace SampleApi.Controllers
         public ActionResult<HelloOutputModel> Hello(string name)
         {
             var model = new HelloOutputModel();
-
             model.WelcomeMessage = $"{model.WelcomeMessage} {name ?? "whoever you are!"}";
-
             return Ok(model);
         }
     }
