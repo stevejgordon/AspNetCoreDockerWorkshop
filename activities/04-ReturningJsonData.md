@@ -16,23 +16,23 @@ We're going to update our action to return a JSON result.
 public string WelcomeMessage { get; set; } = "Hello";
 ```
 
-4. Update the 'Hello' method in the SampleController to instantiate an instance of the HelloOutputModel before the return statement.
+4. Update the 'Hello' method in the 'SampleController' so that the method returns `ActionResult<HelloOutputModel>`
+
+``` csharp
+public ActionResult<HelloOutputModel> Hello()
+```
+
+5. Update the 'Hello' method to instantiate an instance of the HelloOutputModel before the return statement.
 
 ``` csharp
 var model = new HelloOutputModel();
 ```
 *NOTE: You'll need to include a using statement for 'SampleApi.OutputModels'*
 
-5. Update the return statement to return the object.
+6. Update the return statement to return the object.
 
 ``` csharp
 return Ok(model);
-```
-
-6. Update the method signature to return `ActionResult<HelloOutputModel>`
-
-``` csharp
-public ActionResult<HelloOutputModel> Hello()
 ```
 
 7. Run the application by pressing F5.
