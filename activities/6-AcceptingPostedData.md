@@ -2,6 +2,8 @@
 
 For this activity, please ensure you have completed [Activity 5](5-BindingFromQueryString) and have your solution open in Visual Studio 2017.
 
+## Activity Steps
+
 1. Create a new class called 'CalculateOutputModel' in the 'OutputModels' folder.
 
 ``` csharp

@@ -3,6 +3,8 @@
 
 For this activity, please ensure you have completed [Activity 6](6-AcceptingPostedData.md) and have your solution open in Visual Studio 2017.
 
+## Activity Steps
+
 1. Open the appsettings.json file in the root of the project.
 2. Add a 'Messages' section to the end of the configuration file, after the 'Logging' section. Include a setting called 'WelcomeMessage' with a value of 'Hey'. Once complete the contents of your appsettings.json file should be as follows...
 

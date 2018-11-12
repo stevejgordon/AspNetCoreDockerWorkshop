@@ -3,6 +3,8 @@
 
 For this activity, please ensure you have completed [Activity 7](7-Configuration.md) and have your solution open in Visual Studio 2017.
 
+## Activity Steps
+
 1. Update the constructor of the SampleController to accept an `ILogger<SampleController>` and store the object in a private field.
 
 ``` csharp

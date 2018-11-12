@@ -3,6 +3,8 @@
 
 For this activity, please ensure you have completed [Activity 9](9-InitialDockerfile.md).
 
+## Activity Steps
+
 1. Edit the 'dockerfile' in VS Code or Notepad (or your text editor of choice) and add the following...
 
 ```

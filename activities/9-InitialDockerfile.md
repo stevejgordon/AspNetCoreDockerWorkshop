@@ -3,6 +3,8 @@
 
 For this activity, please ensure you have completed [Activity 8](8-Logging.md).
 
+## Activity Steps
+
 1. Copy the '.dockerignore' file from the 'resources' folder of this workshop repository and paste it into the root of your solution. *The same folder where your .sln file exists*
 2. Create a new text document in the your root directory called 'dockerfile'. **It is important that you do not include an extension for this file**
 3. Edit the 'dockerfile' in VS Code or Notepad (or your text editor of choice) and add the following...

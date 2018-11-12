@@ -2,6 +2,8 @@
 
 For this activity, please ensure you have completed [Activity 2](2-CreateEmptyWebProject.md) and have your solution open in Visual Studio 2017.
 
+## Activity Steps
+
 1. Create a new folder call 'Controllers' inside the SampleApi project.
 2. Create a class called 'SampleController' in the Controllers folder.
 3. Update the class to inherit from the Controller abstract class.

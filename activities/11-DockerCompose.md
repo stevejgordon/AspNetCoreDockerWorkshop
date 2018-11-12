@@ -3,6 +3,8 @@
 
 For this activity, please ensure you have completed [Activity 10](10-ProductionDockerfile.md).
 
+## Activity Steps
+
 1. Create a new text document in the your root directory called 'docker-compose.yml'.
 2. Edit the 'docker-compose.yml' in VS Code or Notepad (or your text editor of choice) and add the following...
 

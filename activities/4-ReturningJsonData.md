@@ -2,6 +2,8 @@
 
 For this activity, please ensure you have completed [Activity 3](3-CreateControllerAndAction.md) and have your solution open in Visual Studio 2017.
 
+## Activity Steps
+
 1. Create a new folder call 'OutputModels' inside the SampleApi project.
 2. Create a class called 'HelloOutputModel' in the OutputModels folder.
 3. Add the following Property declaration to the class...

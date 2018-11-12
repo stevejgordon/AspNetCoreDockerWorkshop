@@ -1,5 +1,7 @@
 # Install .NET SDK
 
+## Activity Steps
+
 1. Verify the .NET SDK version installed on your PC. Open a command prompt and run the following command...
 
 ```dotnet --version```
