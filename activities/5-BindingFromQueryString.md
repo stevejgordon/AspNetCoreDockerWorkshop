@@ -2,6 +2,10 @@
 
 For this activity, please ensure you have completed [Activity 4](4-ReturningJsonData.md) and have your solution open in Visual Studio 2017.
 
+## What's the plan?
+
+We're going to explore binding data from the query string.
+
 ## Activity Steps
 
 1. Update the method signature of the Hello method to accept a string parameter called 'name'.

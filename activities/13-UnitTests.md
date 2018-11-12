@@ -1,7 +1,11 @@
 
 # Adding Unit Test Project
 
-For this activity, please ensure you have completed [Activity 11](11-DockerCompose.md).
+For this activity, please ensure you have completed [Activity 12](12-DockerCompose.md).
+
+## What's the plan?
+
+We're going to add a unit test project with a simple test against the 'Hello' action of our 'SampleController'. We'll run the tests via the UI and/or the command line via the dotnet CLI. Finally we'll update the dockerfile so that tests are run during the Docker image build process.
 
 ## Activity Steps
 
@@ -106,6 +110,6 @@ public void Hello_Should_ReturnExpectedWelcomeMessage()
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/12-Unit-Tests' folder.
+The completed example for this activity can be found in the '/steps/13-Unit-Tests' folder.
 
 [Return to README and activity links](../README.md)

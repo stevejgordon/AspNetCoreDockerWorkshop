@@ -2,6 +2,10 @@
 
 For this activity, please ensure you have completed [Activity 3](3-CreateControllerAndAction.md) and have your solution open in Visual Studio 2017.
 
+## What's the plan?
+
+We're going to update our action to return a JSON result.
+
 ## Activity Steps
 
 1. Create a new folder call 'OutputModels' inside the SampleApi project.

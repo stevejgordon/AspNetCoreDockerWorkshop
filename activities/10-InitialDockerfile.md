@@ -1,7 +1,11 @@
 
 # Initial Dockerfile
 
-For this activity, please ensure you have completed [Activity 8](8-Logging.md).
+For this activity, please ensure you have completed [Activity 9](9-Logging.md).
+
+## What's the plan?
+
+We're going to create a dockerfile to containerise our application. We'll use the dockerfile to build a Docker image for the application so that it can be distributed and used to launch a container.
 
 ## Activity Steps
 
@@ -65,6 +69,6 @@ docker images aspnetcore-workshop
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/9-Initial-Dockerfile' folder.
+The completed example for this activity can be found in the '/steps/10-Initial-Dockerfile' folder.
 
 [Return to README and activity links](../README.md)

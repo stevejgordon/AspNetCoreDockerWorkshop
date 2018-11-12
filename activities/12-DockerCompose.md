@@ -1,7 +1,11 @@
 
 # Docker Compose
 
-For this activity, please ensure you have completed [Activity 10](10-ProductionDockerfile.md).
+For this activity, please ensure you have completed [Activity 11](11-ProductionDockerfile.md).
+
+## What's the plan?
+
+We're going to add a docker-compose file to support running our application without having to recall the docker switch to expose ports. We'll also override the configuration for the application at runtime of the container by passing in an environment variable.
 
 ## Activity Steps
 
@@ -51,6 +55,6 @@ docker-compose stop
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/11-Docker-Compose' folder.
+The completed example for this activity can be found in the '/steps/12-Docker-Compose' folder.
 
 [Return to README and activity links](../README.md)

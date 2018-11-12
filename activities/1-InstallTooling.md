@@ -1,5 +1,9 @@
 # Install .NET SDK
 
+## What's the plan?
+
+We're going make sure the correct version of the SDK for .NET Core is installed and if not, install it.
+
 ## Activity Steps
 
 1. Verify the .NET SDK version installed on your PC. Open a command prompt and run the following command...

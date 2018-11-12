@@ -1,6 +1,10 @@
 # Accepting Posted Data
 
-For this activity, please ensure you have completed [Activity 5](5-BindingFromQueryString) and have your solution open in Visual Studio 2017.
+For this activity, please ensure you have completed [Activity 6](6-BindingFromRouteParameters) and have your solution open in Visual Studio 2017.
+
+## What's the plan?
+
+We're going to add an action which will accept and handle POSTed data to a new endpoint on our API.
 
 ## Activity Steps
 
@@ -69,6 +73,6 @@ public ActionResult<CalculateOutputModel> Calculate(CalculateInputModel input)
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/6-Accepting-Posted-Data' folder.
+The completed example for this activity can be found in the '/steps/7-Accepting-Posted-Data' folder.
 
 [Return to README and activity links](../README.md)

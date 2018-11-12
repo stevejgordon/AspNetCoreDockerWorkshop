@@ -1,7 +1,11 @@
 
 # Logging
 
-For this activity, please ensure you have completed [Activity 7](7-Configuration.md) and have your solution open in Visual Studio 2017.
+For this activity, please ensure you have completed [Activity 8](8-Configuration.md) and have your solution open in Visual Studio 2017.
+
+## What's the plan?
+
+We're going to use the default ASP.NET Core logging (Microsoft.Extensions.Logging) library to log a message to the console from our 'Calculate' action.
 
 ## Activity Steps
 
@@ -45,6 +49,6 @@ public ActionResult<CalculateOutputModel> Calculate(CalculateInputModel input)
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/8-Logging' folder.
+The completed example for this activity can be found in the '/steps/9-Logging' folder.
 
 [Return to README and activity links](../README.md)

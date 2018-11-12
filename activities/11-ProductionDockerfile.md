@@ -1,7 +1,11 @@
 
 # Production Dockerfile
 
-For this activity, please ensure you have completed [Activity 9](9-InitialDockerfile.md).
+For this activity, please ensure you have completed [Activity 10](10-InitialDockerfile.md).
+
+## What's the plan?
+
+We're going to improve our dockerfile, using a multistage build to produce a runtime based production image.
 
 ## Activity Steps
 
@@ -77,6 +81,6 @@ docker images aspnetcore-workshop
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/10-Production-Dockerfile' folder.
+The completed example for this activity can be found in the '/steps/11-Production-Dockerfile' folder.
 
 [Return to README and activity links](../README.md)

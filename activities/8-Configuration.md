@@ -1,7 +1,11 @@
 
 # Configuration
 
-For this activity, please ensure you have completed [Activity 6](6-AcceptingPostedData.md) and have your solution open in Visual Studio 2017.
+For this activity, please ensure you have completed [Activity 7](7-AcceptingPostedData.md) and have your solution open in Visual Studio 2017.
+
+## What's the plan?
+
+We're going to add the concept of configuration to our API. We'll configure the application using an appsettings.json file.  We'll use the Options pattern in our SampleController to retrieve the configured value which we'll use to control the output from an endpoint in our API.
 
 ## Activity Steps
 
@@ -96,6 +100,6 @@ model.WelcomeMessage = $"{_messagesConfig.Value.WelcomeMessage} {name ?? "whoeve
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/7-Configuration' folder.
+The completed example for this activity can be found in the '/steps/8-Configuration' folder.
 
 [Return to README and activity links](../README.md)
