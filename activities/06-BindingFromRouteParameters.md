@@ -1,4 +1,4 @@
-# Binding Data from the QueryString
+# Binding Data from the Route Parameters
 
 For this activity, please ensure you have completed [Activity 5](05-BindingFromQueryString.md) and have your solution open in Visual Studio 2017.
 
