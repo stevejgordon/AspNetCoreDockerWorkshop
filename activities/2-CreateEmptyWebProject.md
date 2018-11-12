@@ -2,46 +2,62 @@
 
 For this activity, please ensure you have completed [Activity 1](1-InstallTooling.md) to install the required tooling.
 
-1. Open a command prompt from the AspNetCoreDockerWorkshop directory.
-2. Create a 'src' folder. This is a common convention.
+## What's the plan?
+
+We're going to use the command line and dotnet CLI to create the structure for our API project amd solution.
+
+We could use the Visual Studio UI and tooling for this also, but let's see how easily the cross platform CLI supports working with projects and templates.
+
+## Activity Steps
+
+1. Open a command prompt from your preferred project directory e.g. 'C:\Projects\'.
+2. Create a 'SampleApi' folder.
+
+```md SampleApi```
+
+3. Change to the 'SampleApi' folder.
+
+```cd SampleApi```
+
+4. Create a 'src' folder. *NOTE: Using src is a common pattern.*
 
 ```md src```
 
-3. Change to the 'src' folder.
+5. Change to the 'src' folder.
 
 ```cd src```
 
-4. Pin the SDK version for these activies to 2.1.403 
+6. Pin the SDK version for these activies to 2.1.403 
 
 ```dotnet new globaljson --sdk-version 2.1.403```
 
-5. Use the dotnet CLI to create an empty web project called SampleApi.
+7. Use the dotnet CLI to create an empty web project called SampleApi.
 
 ```dotnet new web --name SampleApi --no-https```
 
-6. Change boot to the root directory.
+8. Change boot to the root directory.
 
 ```cd ..```
 
-7. Use the dotnet CLI to create a new empty solution
+9. Use the dotnet CLI to create a new empty solution
 
 ```dotnet new sln```
 
-8. Add the SampleApi project to the solution.
+10. Add the SampleApi project to the solution.
 
 ```dotnet sln add .\src\SampleApi\SampleApi.csproj```
 
-9. Use the dotnet CLI to build the solution.
+11. Use the dotnet CLI to build the solution.
 
 ```dotnet build```
 
-10. Use the dotnet CLI to run the application
+12. Use the dotnet CLI to run the application
 
 ```dotnet run --project src/SampleApi/SampleApi.csproj```
 
 *NOTE: By default the application will be hosted on port 5000. If this conflicts with anything you can override the port using the switch  --urls "http://localhost:PORT"*
 
-11. Open a browser to test the application by navigating to http://localhost:5000
+13. Open a browser to test the application by navigating to http://localhost:5000
 
 ## End of Activity
 
