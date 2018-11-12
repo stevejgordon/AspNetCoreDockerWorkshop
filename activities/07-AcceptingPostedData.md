@@ -19,13 +19,11 @@ public class CalculateOutputModel
 
 2. Create a new folder called 'InputModels'
 3. Create a new class called 'CalculateInputModel' in the 'InputModels' folder.
+4. Add to properties as follows...
 
 ``` csharp
-public class CalculateInputModel
-{
-    public int Number1 { get; set; }
-    public int Number2 { get; set; }
-}
+public int Number1 { get; set; }
+public int Number2 { get; set; }
 ```
 
 4. Add a new method to the SampleController called 'Calculate'...
@@ -36,10 +34,10 @@ public class CalculateInputModel
 public ActionResult<CalculateOutputModel> Calculate(CalculateInputModel input)
 {
     var result = new CalculateOutputModel { Result = input.Number1 + input.Number2 };
-
     return Ok(result);
 }
 ```
+*NOTE: You will require a using statement for 'SampleApi.InputModels'.*
 
 5. Run the application by pressing F5.
 
