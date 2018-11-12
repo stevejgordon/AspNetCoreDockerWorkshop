@@ -1,3 +1,4 @@
+using System;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging.Abstractions;
@@ -29,7 +30,7 @@ namespace SampleApi.Test
 
             var okResult = actionResult.Result.Should().BeAssignableTo<OkObjectResult>()
                 .Which.Value.Should().BeAssignableTo<HelloOutputModel>()
-                    .Which.WelcomeMessage.Should().Be(expectedWelcome);
+                .Which.WelcomeMessage.Should().Be(expectedWelcome);
         }
     }
 }

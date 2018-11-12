@@ -57,8 +57,8 @@ At this point your project file should look like this...
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FluentAssertions" Version="5.5.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="FluentAssertions" Version="5.5.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
     <PackageReference Include="Moq" Version="4.10.0" />
     <PackageReference Include="xunit" Version="2.3.1" />
@@ -76,7 +76,7 @@ At this point your project file should look like this...
 
 10. Rename the 'Test1' method to 'Hello_Should_ReturnExpectedWelcomeMessage'
 
-11. Add the following body to the method which will excercise the Hello method...
+11. Update your test so that it looks like the block below. This will exercise the 'Hello' action method...
 
 ```csharp
 [Fact]
@@ -104,7 +104,7 @@ public void Hello_Should_ReturnExpectedWelcomeMessage()
 
 13. Run the unit test via your preferred test runner.
 
-*If you prefer to do this via the command line you can run the following command from your solution root directory*
+14. You can also execute the test via the dotnet CLI. Run the following command from your solution root directory...
 
 ```dotnet test test/SampleApi.Test/SampleApi.Test.csproj```
 

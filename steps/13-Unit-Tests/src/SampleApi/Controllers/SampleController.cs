@@ -20,15 +20,12 @@ namespace SampleApi.Controllers
             _logger = logger;
         }
 
-        [Route("")]
+        [Route("{name?}")]
         public ActionResult<HelloOutputModel> Hello(string name)
         {
             var model = new HelloOutputModel();
-
             model.WelcomeMessage = $"{_messagesConfig.Value.WelcomeMessage} {name ?? "whoever you are!"}";
-
-            return Ok(model);
-        }
+            return Ok(model);}
 
         [HttpPost]
         [Route("calculate")]
