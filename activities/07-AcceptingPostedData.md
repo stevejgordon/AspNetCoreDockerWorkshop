@@ -73,4 +73,6 @@ public ActionResult<CalculateOutputModel> Calculate(CalculateInputModel input)
 
 The completed example for this activity can be found in the '/steps/07-Accepting-Posted-Data' folder.
 
+Continue to [Activity 8](08-Configuration.md).
+
 [Return to README and activity links](../README.md)

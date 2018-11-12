@@ -42,4 +42,6 @@ public ActionResult<HelloOutputModel> Hello(string name)
 
 The completed example for this activity can be found in the '/steps/05-Binding-Data-From-Query-String' folder.
 
+Continue to [Activity 6](06-BindingFromRouteParameters.md).
+
 [Return to README and activity links](../README.md)

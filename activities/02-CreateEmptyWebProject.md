@@ -79,4 +79,6 @@ By this point you should be able to double click the solution file to open the S
 
 The completed example for this activity can be found in the '/steps/02-Create-Solution-And-Project' folder.
 
+Continue to [Activity 3](03-CreateControllerAndAction.md).
+
 [Return to README and activity links](../README.md)

@@ -95,4 +95,6 @@ model.WelcomeMessage = $"{_messagesConfig.Value.WelcomeMessage} {name ?? "whoeve
 
 The completed example for this activity can be found in the '/steps/08-Configuration' folder.
 
+Continue to [Activity 9](09-Logging.md).
+
 [Return to README and activity links](../README.md)

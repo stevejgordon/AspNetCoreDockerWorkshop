@@ -57,4 +57,6 @@ docker-compose stop
 
 The completed example for this activity can be found in the '/steps/12-Docker-Compose' folder.
 
+Continue to [Activity 13](13-UnitTests.md).
+
 [Return to README and activity links](../README.md)

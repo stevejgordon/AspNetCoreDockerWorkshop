@@ -22,4 +22,6 @@ We're going to explore binding data from route parameters.
 
 The completed example for this activity can be found in the '/steps/06-Binding-From-Route-Parameters' folder.
 
+Continue to [Activity 7](07-AcceptingPostedData.md).
+
 [Return to README and activity links](../README.md)

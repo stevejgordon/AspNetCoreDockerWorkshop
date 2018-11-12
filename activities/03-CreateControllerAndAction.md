@@ -57,4 +57,6 @@ app.UseMvc();
 
 The completed example for this activity can be found in the '/steps/03-Create-Controller-And-Action' folder.
 
+Continue to [Activity 4](04-ReturningJsonData.md).
+
 [Return to README and activity links](../README.md)

@@ -54,4 +54,6 @@ public ActionResult<CalculateOutputModel> Calculate(CalculateInputModel input)
 
 The completed example for this activity can be found in the '/steps/09-Logging' folder.
 
+Continue to [Activity 10](10-InitialDockerfile.md).
+
 [Return to README and activity links](../README.md)

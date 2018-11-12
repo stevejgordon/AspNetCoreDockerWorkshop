@@ -51,4 +51,6 @@ public ActionResult<HelloOutputModel> Hello()
 
 The completed example for this activity can be found in the '/steps/04-Returning-JSON-Data' folder.
 
+Continue to [Activity 4](04-ReturningJsonData.md).
+
 [Return to README and activity links](../README.md)

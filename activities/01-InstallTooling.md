@@ -22,4 +22,6 @@ This command lists all of the SDK and runtime versions installed on your PC.
 
 ## End of Activity
 
+Continue to [Activity 2](02-CreateEmptyWebProject.md).
+
 [Return to README and activity links](../README.md)
