@@ -9,18 +9,14 @@ We're going to add the concept of configuration to our API. We'll configure the 
 
 ## Activity Steps
 
-1. Open the appsettings.json file in the root of the project.
-2. Add a 'Messages' section to the end of the configuration file, after the 'Logging' section. Include a setting called 'WelcomeMessage' with a value of 'Hey'. Once complete the contents of your appsettings.json file should be as follows...
+1. Create a JSON file called 'appsettings.json' at the root of the project.
+
+TODO - IMAGE
+
+1. Add a 'Messages' section to the configuration file. Include a setting called 'WelcomeMessage' with a value of 'Hey'. Once complete, the contents of your appsettings.json file should be as follows...
 
 ``` javascript
 {
-  "Logging": {
-    "LogLevel": {
-      "Default": "Debug",
-      "System": "Information",
-      "Microsoft": "Information"
-    }
-  },
   "Messages": {
     "WelcomeMessage": "Hey"
   }
@@ -37,7 +33,7 @@ public class MessagesConfiguration
 }
 ```
 
-5. In the Startup class, add a public constructor accepting an IConfiguration object. Store this into a public read-only property.
+5. At the top of the Startup class, add a public constructor accepting an IConfiguration object. Store this into a public read-only property.
 
 ``` csharp
 public IConfiguration Configuration { get; }
@@ -59,8 +55,11 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
+*NOTE: This will require a using statement for 'SampleApi.Configuration'.*
+
 7. Add a constructor to the SampleController accepting an `IOptions<MessagesConfiguration>` and store the object in a private read-only field.
 
+*NOTE: This will require a using statement for 'SampleApi.Configuration' and 'Microsoft.Extensions.Options'.*
 
 ``` csharp
 private readonly IOptions<MessagesConfiguration> _messagesConfig;
@@ -78,25 +77,19 @@ model.WelcomeMessage = $"{_messagesConfig.Value.WelcomeMessage} {name ?? "whoeve
 ```
 
 9. Run the application by pressing F5.
-10. Open the 'appsettings.development.json' file in the root of the project. *You may need to expand the 'appsettings.json' node in the Solution Explorer.*
-11. Copy in the 'Messages' section from appsettings.json' to the end of the configuration file, after the 'Logging' section. Make the value of the 'WelcomeMessage' setting 'Hey from dev'. Once complete the contents of your appsettings.json file should be as follows...
+10. Create a JSON file called 'appsettings.development.json' at the root of the project.
+11. Copy in the 'Messages' section from appsettings.json' into the new configuration file. 
+12. Update the value of the 'WelcomeMessage' setting to 'Hey from dev'. Once complete the contents of your appsettings.json file should be as follows...
 
 ``` javascript
 {
-  "Logging": {
-    "LogLevel": {
-      "Default": "Debug",
-      "System": "Information",
-      "Microsoft": "Information"
-    }
-  },
   "Messages": {
     "WelcomeMessage": "Hey from dev"
   }
 }
 ```
 
-12. Run the application by pressing F5.
+13. Run the application by pressing F5.
 
 ## End of Activity
 

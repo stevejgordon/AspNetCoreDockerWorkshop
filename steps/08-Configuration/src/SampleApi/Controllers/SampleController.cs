@@ -16,13 +16,11 @@ namespace SampleApi.Controllers
             _messagesConfig = messagesConfig;
         }
 
-        [Route("")]
+        [Route("{name?}")]
         public ActionResult<HelloOutputModel> Hello(string name)
         {
             var model = new HelloOutputModel();
-
             model.WelcomeMessage = $"{_messagesConfig.Value.WelcomeMessage} {name ?? "whoever you are!"}";
-
             return Ok(model);
         }
 
@@ -31,7 +29,6 @@ namespace SampleApi.Controllers
         public ActionResult<CalculateOutputModel> Calculate(CalculateInputModel input)
         {
             var result = new CalculateOutputModel { Result = input.Number1 + input.Number2 };
-
             return Ok(result);
         }
     }
