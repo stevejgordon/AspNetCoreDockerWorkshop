@@ -1,6 +1,6 @@
 # Accepting Posted Data
 
-For this activity, please ensure you have completed [Activity 6](6-BindingFromRouteParameters) and have your solution open in Visual Studio 2017.
+For this activity, please ensure you have completed [Activity 6](6-BindingFromRouteParameters.md) and have your solution open in Visual Studio 2017.
 
 ## What's the plan?
 
