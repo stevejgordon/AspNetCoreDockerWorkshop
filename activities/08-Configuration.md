@@ -11,7 +11,7 @@ We're going to add the concept of configuration to our API. We'll configure the 
 
 1. Create a JSON file called 'appsettings.json' at the root of the project.
 
-TODO - IMAGE
+![AppSettings.json](../images/7-AppSettingsJson.png "AppSettings.json")
 
 1. Add a 'Messages' section to the configuration file. Include a setting called 'WelcomeMessage' with a value of 'Hey'. Once complete, the contents of your appsettings.json file should be as follows...
 
