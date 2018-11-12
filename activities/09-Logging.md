@@ -21,6 +21,8 @@ public SampleController(IOptions<MessagesConfiguration> messagesConfig, ILogger<
 } 
 ```
 
+*NOTE: This will require a using statement for 'Microsoft.Extensions.Logging'.*
+
 2. Update the Calculate method to make use of logging as follows...
 
 ``` csharp
@@ -40,6 +42,7 @@ public ActionResult<CalculateOutputModel> Calculate(CalculateInputModel input)
     return Ok(result);
 }
 ```
+*NOTE: This will require a using statement for 'System'.*
 
 3. Run the application by pressing F5.
 4. Send a post request using Postman. Use the same steps found in [Activity 6](6-AcceptingPostedData.md)
