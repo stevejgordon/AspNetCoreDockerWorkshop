@@ -23,49 +23,37 @@ We could use the Visual Studio UI and tooling for this also, but let's see how e
 
 ```dotnet new globaljson --sdk-version 2.1.403```
 
-5. Create a 'src' folder. *NOTE: Using src is a common pattern.*
+5. Use the dotnet CLI to create an empty web project called SampleApi under a directory called 'src'.
 
-```md src```
+```dotnet new web --name SampleApi --no-https -o src/SampleApi```
 
-6. Change to the 'src' folder.
-
-```cd src```
-
-7. Use the dotnet CLI to create an empty web project called SampleApi.
-
-```dotnet new web --name SampleApi --no-https```
-
-8. Change boot to the root directory.
-
-```cd ..```
-
-9. Use the dotnet CLI to create a new empty solution
+6. Use the dotnet CLI to create a new empty solution
 
 ```dotnet new sln```
 
-10. Add the SampleApi project to the solution.
+7. Add the SampleApi project to the solution.
 
 ```dotnet sln add .\src\SampleApi\SampleApi.csproj```
 
-11. Use the dotnet CLI to build the solution.
+8. Use the dotnet CLI to build the solution.
 
 ```dotnet build```
 
-12. Use the dotnet CLI to run the application
+9. Use the dotnet CLI to run the application
 
 ```dotnet run --project src/SampleApi/SampleApi.csproj```
 
 *NOTE: By default the application will be hosted on port 5000. If this conflicts with anything you can override the port using the switch  --urls "http://localhost:PORT"*
 
-13. Open a browser to test the application by navigating to http://localhost:5000
+10. Open a browser to test the application by navigating to http://localhost:5000
 
 To finish, we'll clean up some items added by the default web project template which we do not need. This is not absolutely required but keeps everything clean.
 
-14. Explore to the 'src/SampleApi' directory from Windows Explorer. 
-15. Open the src/SampleApi/SampleApi.csproj file in the text editor of your choosing.
+11. Explore to the 'src/SampleApi' directory from Windows Explorer. 
+12. Open the src/SampleApi/SampleApi.csproj file in the text editor of your choosing.
 
-17. Remove the entire ItemGroup which specified the folder include for the wwwroot folder.
-18. Remove the package reference to 'Microsoft.AspNetCore.Razor.Design' which is not needed for an API project.
+13. Remove the entire ItemGroup which specified the folder include for the wwwroot folder.
+14. Remove the package reference to 'Microsoft.AspNetCore.Razor.Design' which is not needed for an API project.
 
 The csproj file for SampleApi should look like this once you have finished...
 
@@ -83,7 +71,7 @@ The csproj file for SampleApi should look like this once you have finished...
 </Project>
 ```
 
-19. In Windows Explorer, delete the 'wwwroot' folder. This is not needed for an API project since we will not serve any static files.
+15. In Windows Explorer, delete the 'wwwroot' folder. This is not needed for an API project since we will not serve any static files.
 
 ## End of Activity
 
