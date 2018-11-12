@@ -59,6 +59,33 @@ We could use the Visual Studio UI and tooling for this also, but let's see how e
 
 13. Open a browser to test the application by navigating to http://localhost:5000
 
+To close, we'll clean up some items added by the default web project template which we do not need. This is not absolutely required but keeps everything clean.
+
+14. Begin editing the SampleApi project inside Visual Studio
+
+![Edit Project](../images/0-EditSampleApiProject.png "Edit Project")
+
+16. Remove the entire ItemGroup which specified the folder include for the wwwroot folder.
+17. Remove the package reference to 'Microsoft.AspNetCore.Razor.Design' which is not needed for an API project.
+
+The csproj file for SampleApi should look like this once you have finished...
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>
+```
+
+15. Explore to the 'src/SampleApi' directory from Windows Explorer and delete the 'wwwroot' folder. This is not needed for an API project since we will not serve any static files.
+
 ## End of Activity
 
 By this point you should be able to double click the solution file to open the SampleApi project in Visual Studio 2017.

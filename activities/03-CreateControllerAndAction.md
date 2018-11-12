@@ -9,13 +9,15 @@ We're going to create our first ASP.NET Core MVC controller and an action to han
 ## Activity Steps
 
 1. Open your SampleApi.sln in Visual Studio 2017.
-1. Create a new folder call 'Controllers' inside the SampleApi project.
+1. Create a new folder call 'Controllers' under the SampleApi project.
 1. Create a class called 'SampleController' in the Controllers folder.
 1. Update the class to inherit from the Controller abstract class.
 
 ``` csharp
 public class SampleController : Controller
 ```
+
+*NOTE: This will require the a using statement for 'Microsoft.AspNetCore.Mvc'.*
 
 5. Add the  [ApiController] attribute to the class.
 
@@ -28,7 +30,7 @@ public class SampleController : Controller
 
 ``` csharp
 [Route("")]
-public IActionResult Hello()
+public string Hello()
 {
     return "Hello";
 }

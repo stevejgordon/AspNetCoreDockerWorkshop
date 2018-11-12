@@ -16,7 +16,7 @@ We're going to update our action to return a JSON result.
 public string WelcomeMessage { get; set; } = "Hello";
 ```
 
-4. Update the Hello method in the SampleController to instantiate an instance of the HelloOutputModel before the return statement.
+4. Update the 'Hello' method in the SampleController to instantiate an instance of the HelloOutputModel before the return statement.
 
 ``` csharp
 var model = new HelloOutputModel();
