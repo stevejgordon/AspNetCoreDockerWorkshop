@@ -14,11 +14,9 @@ We're going to explore binding data from the query string.
 public ActionResult<HelloOutputModel> Hello(string name)
 ```
 
-2. After the line which creates the HelloOutputModel, add the following code to update the WelcomeMessage...
+2. After the line which creates the HelloOutputModel, before the return statement, add the following line to update the WelcomeMessage on the model...
 
 ``` csharp
-var model = new HelloOutputModel();
-
 model.WelcomeMessage = $"{model.WelcomeMessage} {name ?? "whoever you are!"}";
 ```
 
@@ -30,6 +28,19 @@ model.WelcomeMessage = $"{model.WelcomeMessage} {name ?? "whoever you are!"}";
 5. Press Enter to navigate to the updated URL.
 
 ## End of Activity
+
+By the end of this activity your completed action method should now look like this...
+``` csharp
+[Route("")]
+public ActionResult<HelloOutputModel> Hello(string name)
+{
+    var model = new HelloOutputModel();
+
+    model.WelcomeMessage = $"{model.WelcomeMessage} {name ?? "whoever you are!"}";
+
+    return Ok(model);
+}
+```
 
 The completed example for this activity can be found in the '/steps/05-Binding-Data-From-Query-String' folder.
 

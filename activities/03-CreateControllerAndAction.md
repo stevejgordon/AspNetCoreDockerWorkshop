@@ -36,6 +36,21 @@ public string Hello()
 }
 ```
 
+7. Open the Startup class.
+8. Add the following line to the ConfigureServices method to register the MVC services with DI.
+
+```csharp
+ services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+```
+
+*NOTE: A using statement will be required for 'Microsoft.AspNetCore.Mvc'.*
+
+9. Replace the app.Run call in the 'Configure' method with the following...
+
+```csharp
+app.UseMvc();
+```
+
 7. Run the application by pressing F5.
 
 ## End of Activity
