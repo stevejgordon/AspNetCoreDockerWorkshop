@@ -20,13 +20,12 @@ public string WelcomeMessage { get; set; } = "Hello";
 
 ``` csharp
 var model = new HelloOutputModel();
-return "Hello";
 ```
+*NOTE: You'll need to include a using statement for 'SampleApi.OutputModels'*
 
 5. Update the return statement to return the object.
 
 ``` csharp
-var model = new HelloOutputModel();
 return Ok(model);
 ```
 
@@ -36,9 +35,19 @@ return Ok(model);
 public ActionResult<HelloOutputModel> Hello()
 ```
 
-6. Run the application by pressing F5.
+7. Run the application by pressing F5.
 
 ## End of Activity
+
+By the end of this activity your completed action method should now look like this...
+``` csharp
+[Route("")]
+public ActionResult<HelloOutputModel> Hello()
+{
+    var model = new HelloOutputModel();
+    return Ok(model);
+}
+```
 
 The completed example for this activity can be found in the '/steps/04-Returning-JSON-Data' folder.
 
