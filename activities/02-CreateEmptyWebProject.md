@@ -1,6 +1,6 @@
 # Creating an Empty Web Project
 
-For this activity, please ensure you have completed [Activity 1](1-InstallTooling.md) to install the required tooling.
+For this activity, please ensure you have completed [Activity 1](01-InstallTooling.md) to install the required tooling.
 
 ## What's the plan?
 
@@ -63,6 +63,6 @@ We could use the Visual Studio UI and tooling for this also, but let's see how e
 
 By this point you should be able to double click the solution file to open the SampleApi project in Visual Studio 2017.
 
-The completed example for this activity can be found in the '/steps/2-Create-Solution-And-Project' folder.
+The completed example for this activity can be found in the '/steps/02-Create-Solution-And-Project' folder.
 
 [Return to README and activity links](../README.md)

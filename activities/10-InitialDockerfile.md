@@ -1,7 +1,7 @@
 
 # Initial Dockerfile
 
-For this activity, please ensure you have completed [Activity 9](9-Logging.md).
+For this activity, please ensure you have completed [Activity 9](09-Logging.md).
 
 ## What's the plan?
 

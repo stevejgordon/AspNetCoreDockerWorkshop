@@ -1,7 +1,7 @@
 
 # Configuration
 
-For this activity, please ensure you have completed [Activity 7](7-AcceptingPostedData.md) and have your solution open in Visual Studio 2017.
+For this activity, please ensure you have completed [Activity 7](07-AcceptingPostedData.md) and have your solution open in Visual Studio 2017.
 
 ## What's the plan?
 
@@ -100,6 +100,6 @@ model.WelcomeMessage = $"{_messagesConfig.Value.WelcomeMessage} {name ?? "whoeve
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/8-Configuration' folder.
+The completed example for this activity can be found in the '/steps/08-Configuration' folder.
 
 [Return to README and activity links](../README.md)

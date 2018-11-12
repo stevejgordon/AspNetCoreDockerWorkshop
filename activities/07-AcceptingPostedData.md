@@ -1,6 +1,6 @@
 # Accepting Posted Data
 
-For this activity, please ensure you have completed [Activity 6](6-BindingFromRouteParameters.md) and have your solution open in Visual Studio 2017.
+For this activity, please ensure you have completed [Activity 6](06-BindingFromRouteParameters.md) and have your solution open in Visual Studio 2017.
 
 ## What's the plan?
 
@@ -73,6 +73,6 @@ public ActionResult<CalculateOutputModel> Calculate(CalculateInputModel input)
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/7-Accepting-Posted-Data' folder.
+The completed example for this activity can be found in the '/steps/07-Accepting-Posted-Data' folder.
 
 [Return to README and activity links](../README.md)

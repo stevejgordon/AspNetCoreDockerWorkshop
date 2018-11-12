@@ -1,6 +1,6 @@
 # Binding Data from the QueryString
 
-For this activity, please ensure you have completed [Activity 4](4-ReturningJsonData.md) and have your solution open in Visual Studio 2017.
+For this activity, please ensure you have completed [Activity 4](04-ReturningJsonData.md) and have your solution open in Visual Studio 2017.
 
 ## What's the plan?
 
@@ -31,6 +31,6 @@ model.WelcomeMessage = $"{model.WelcomeMessage} {name ?? "whoever you are!"}";
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/5-Binding-Data-From-Query-String' folder.
+The completed example for this activity can be found in the '/steps/05-Binding-Data-From-Query-String' folder.
 
 [Return to README and activity links](../README.md)

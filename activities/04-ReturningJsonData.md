@@ -1,6 +1,6 @@
 # Returning JSON Data
 
-For this activity, please ensure you have completed [Activity 3](3-CreateControllerAndAction.md) and have your solution open in Visual Studio 2017.
+For this activity, please ensure you have completed [Activity 3](03-CreateControllerAndAction.md) and have your solution open in Visual Studio 2017.
 
 ## What's the plan?
 
@@ -40,6 +40,6 @@ public ActionResult<HelloOutputModel> Hello()
 
 ## End of Activity
 
-The completed example for this activity can be found in the '/steps/4-Returning-JSON-Data' folder.
+The completed example for this activity can be found in the '/steps/04-Returning-JSON-Data' folder.
 
 [Return to README and activity links](../README.md)
