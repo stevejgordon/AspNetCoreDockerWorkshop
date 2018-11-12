@@ -59,14 +59,13 @@ We could use the Visual Studio UI and tooling for this also, but let's see how e
 
 13. Open a browser to test the application by navigating to http://localhost:5000
 
-To close, we'll clean up some items added by the default web project template which we do not need. This is not absolutely required but keeps everything clean.
+To finish, we'll clean up some items added by the default web project template which we do not need. This is not absolutely required but keeps everything clean.
 
-14. Begin editing the SampleApi project inside Visual Studio
+14. Explore to the 'src/SampleApi' directory from Windows Explorer. 
+15. Open the src/SampleApi/SampleApi.csproj file in the text editor of your choosing.
 
-![Edit Project](../images/0-EditSampleApiProject.png "Edit Project")
-
-16. Remove the entire ItemGroup which specified the folder include for the wwwroot folder.
-17. Remove the package reference to 'Microsoft.AspNetCore.Razor.Design' which is not needed for an API project.
+17. Remove the entire ItemGroup which specified the folder include for the wwwroot folder.
+18. Remove the package reference to 'Microsoft.AspNetCore.Razor.Design' which is not needed for an API project.
 
 The csproj file for SampleApi should look like this once you have finished...
 
@@ -84,7 +83,7 @@ The csproj file for SampleApi should look like this once you have finished...
 </Project>
 ```
 
-15. Explore to the 'src/SampleApi' directory from Windows Explorer and delete the 'wwwroot' folder. This is not needed for an API project since we will not serve any static files.
+19. In Windows Explorer, delete the 'wwwroot' folder. This is not needed for an API project since we will not serve any static files.
 
 ## End of Activity
 
