@@ -11,7 +11,7 @@ namespace SampleApi
     {
         public IConfiguration Configuration { get; }
 
-        public Startup(IConfiguration  configuration)
+        public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
@@ -21,7 +21,6 @@ namespace SampleApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<MessagesConfiguration>(Configuration.GetSection("Messages"));
-
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
