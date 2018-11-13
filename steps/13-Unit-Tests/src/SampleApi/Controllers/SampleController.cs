@@ -12,7 +12,7 @@ namespace SampleApi.Controllers
     public class SampleController : ControllerBase
     {
         private readonly IOptions<MessagesConfiguration> _messagesConfig;
-        private readonly ILogger<SampleController> _logger;
+        private readonly ILogger _logger;
 
         public SampleController(IOptions<MessagesConfiguration> messagesConfig, ILogger<SampleController> logger)
         {

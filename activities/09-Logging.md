@@ -12,7 +12,7 @@ We're going to use the default ASP.NET Core logging (Microsoft.Extensions.Loggin
 1. Update the constructor of the SampleController to accept an `ILogger<SampleController>` and store the object in a private field.
 
 ``` csharp
-private readonly ILogger<SampleController> _logger;
+private readonly ILogger _logger;
 
 public SampleController(IOptions<MessagesConfiguration> messagesConfig, ILogger<SampleController> logger)
 {
