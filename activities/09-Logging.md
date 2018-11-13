@@ -50,6 +50,28 @@ public ActionResult<CalculateOutputModel> Calculate(CalculateInputModel input)
  
 ![Logging output](../images/2-LoggingOutput.png "Logging output")
 
+6. Add a development logging section to your appsettings.development.json file with the following values...
+
+``` javascript
+  "Logging": {
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  },
+```
+
+7. Add a production logging section to your appsettings.json file with the following values...
+
+``` javascript
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+```
+
 ## End of Activity
 
 The completed example for this activity can be found in the '/steps/09-Logging' folder.
