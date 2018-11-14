@@ -76,7 +76,7 @@ docker stop <XYZ>
 14. View the size of the image we created using the 'docker images' command.
 
 ```
-docker images aspnetcore-workshop
+docker images aspnetcore-workshop-prod
 ```
 
 ## End of Activity
