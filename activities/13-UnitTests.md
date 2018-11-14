@@ -112,4 +112,6 @@ public void Hello_Should_ReturnExpectedWelcomeMessage()
 
 The completed example for this activity can be found in the '/steps/13-Unit-Tests' folder.
 
+Continue to [Activity 14](14-IntegrationTests.md).
+
 [Return to README and activity links](../README.md)
