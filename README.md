@@ -28,4 +28,4 @@ You'll then create a Docker image for your API and run it as a Docker container.
 | [Activity #11](/activities/11-ProductionDockerfile.md) | Production Dockerfile |
 | [Activity #12](/activities/12-DockerCompose.md) | Working with Docker Compose |
 | [Activity #13](/activities/13-UnitTests.md) | Adding some unit tests |
-| [Activity #14](/activities/13-IntegrationTests.md) | Adding an integration test |
+| [Activity #14](/activities/14-IntegrationTests.md) | Adding an integration test |
