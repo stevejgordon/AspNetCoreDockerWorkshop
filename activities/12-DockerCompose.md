@@ -9,7 +9,7 @@ We're going to add a docker-compose file to support running our application with
 
 ## Activity Steps
 
-1. Create a new text document in the your root directory called 'docker-compose.yml'.
+1. Create a new text document in the root directory called 'docker-compose.yml'.
 2. Edit the 'docker-compose.yml' in VS Code or Notepad (or your text editor of choice) and add the following...
 
 ```
