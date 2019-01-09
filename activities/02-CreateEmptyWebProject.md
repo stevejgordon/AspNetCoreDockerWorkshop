@@ -4,7 +4,7 @@ For this activity, please ensure you have completed [Activity 1](01-InstallTooli
 
 ## What's the plan?
 
-We're going to use the command line and dotnet CLI to create the structure for our API project amd solution.
+We're going to use the command line and dotnet CLI to create the structure for our API project and solution.
 
 We could use the Visual Studio UI and tooling for this also, but let's see how easily the cross platform CLI supports working with projects and templates.
 
