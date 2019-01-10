@@ -39,16 +39,16 @@ EXPOSE 80
 COPY --from=publish /publish/out .
 ```
 
-4. Save the file.
-5. Open a command prompt window in the same directory as the dockerfile.
-6. Build a docker image using the 'docker build' command...
+2. Save the file.
+3. Open a command prompt window in the same directory as the dockerfile.
+4. Build a docker image using the 'docker build' command...
 
 
 ```
 docker build -t aspnetcore-workshop-prod .
 ```
 
-7. Once the build completes, run a docker container from the image using the 'docker run' command...
+5. Once the build completes, run a docker container from the image using the 'docker run' command...
 
 
 ```
@@ -56,24 +56,24 @@ docker run -p 7001:80 aspnetcore-workshop-prod
 ```
 *NOTE: If the above fails because the port 7001 is use on your PC, try another port number.*
 
-8. At this point, you should see some output from the ASP.NET Core logging after the application starts.
-9. Open a browser window and navigate to [http://localhost:7001](http://localhost:7001/).
-10. In the command prompt, press CTRL + C to detach from the container.
-11. View the running containers with the 'docker container ps' command.
+6. At this point, you should see some output from the ASP.NET Core logging after the application starts.
+7. Open a browser window and navigate to [http://localhost:7001](http://localhost:7001/).
+8. In the command prompt, press CTRL + C to detach from the container.
+9. View the running containers with the 'docker container ps' command.
 
 
 ```
 docker container ps
 ```
 
-12. A single entry should exist for the container we have just been running. The first column will be the container ID.
-13. Kill the container using the 'docker stop' command. It accepts a container ID. You only need to provide the first 2 or 3 characters.
+10. A single entry should exist for the container we have just been running. The first column will be the container ID.
+11. Kill the container using the 'docker stop' command. It accepts a container ID. You only need to provide the first 2 or 3 characters.
 
 ```
 docker stop <XYZ>
 ```
 
-14. View the size of the image we created using the 'docker images' command.
+12. View the size of the image we created using the 'docker images' command.
 
 ```
 docker images aspnetcore-workshop-prod
